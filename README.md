@@ -1,68 +1,77 @@
-GOLDRATESLWIDGETAPP
+# 🪙 GoldRateSLWidgetApp  
+**Empowering Instant Gold Insights for Smarter Decisions**
 
-Empowering Instant Gold Insights for Smarter Decisions
+---
 
-last-commit repo-top-language repo-language-count
-Built with the tools and technologies:
+![Swift](https://img.shields.io/badge/Swift-orange?logo=swift&logoColor=white)
+![SPM](https://img.shields.io/badge/Swift_Package_Manager-compatible-brightgreen?logo=swift)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-Markdown Swift
+---
 
-Table of Contents
+## 📘 Overview
 
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Overview
+**GoldRateSLWidgetApp** is a lightweight, widget-driven Swift application built to display **real-time gold prices** directly within larger systems or standalone widgets.  
+It simplifies fetching, decoding, and presenting live financial data — perfect for dashboards, fintech apps, or quick market insights.
 
-GoldRateSLWidgetApp is a lightweight, widget-driven application designed to display real-time gold prices within larger systems. It streamlines the process of fetching, decoding, and presenting live financial data, making it ideal for financial dashboards and apps.
+This app integrates **MetalsAPI** to retrieve **up-to-the-minute gold rates**, ensuring accuracy and reliability for smarter financial decisions.
 
-Why GoldRateSLWidgetApp?
+---
 
-This project enables developers to effortlessly integrate current gold rates into their applications. The core features include:
+## 💡 Why GoldRateSLWidgetApp?
 
-🧩 🟣 Modular Design: Supports scalable and maintainable development with a clear separation of concerns.
-🛠️ 🔵 Centralized Network Management: Handles all API requests efficiently, ensuring reliable data retrieval.
-📊 🟠 Real-Time Data Fetching: Seamlessly integrates live gold prices for up-to-date displays.
-🧮 🟢 Robust JSON Parsing: Handles API responses with optional fields, ensuring data integrity.
-🚀 ⚙️ Easy API Integration: Simplifies connecting to external data sources for real-time updates.
-Getting Started
+This project helps developers easily embed real-time gold rates into their applications.  
+Key features include:
 
-Prerequisites
+- 🧩 **Modular Design** — Clean separation of concerns for scalable, maintainable development.  
+- 🛠️ **Centralized Network Management** — Handles all API requests efficiently for reliable data retrieval.  
+- 📊 **Real-Time Data Fetching** — Fetches live gold rates using the **MetalsAPI** for accurate, current prices.  
+- 🧮 **Robust JSON Parsing** — Handles API responses gracefully, even with optional or missing fields.  
+- 🚀 **Simple API Integration** — Easily connect to other external data sources or extend functionality.  
+- 🪙 **MetalsAPI Integration** — Direct integration with [MetalsAPI](https://metals-api.com) ensures global, real-time market data access.  
+- 📱 **Widget Support** — Designed to function as a standalone widget or part of a broader financial system.
 
-This project requires the following dependencies:
+---
 
-Programming Language: Swift
-Package Manager: Swift_package_manager
-Installation
+## 🧰 Built With
 
-Build GoldRateSLWidgetApp from the source and install dependencies:
+| Tool | Description |
+|------|--------------|
+| **Markdown** | For project documentation |
+| **Swift** | Core application language |
+| **Swift Package Manager (SPM)** | Dependency and build management |
 
-Clone the repository:
+---
 
-❯ git clone https://github.com/navindu2004/GoldRateSLWidgetApp
-Navigate to the project directory:
+## 📋 Table of Contents
 
-❯ cd GoldRateSLWidgetApp
-Install the dependencies:
+- [Overview](#-overview)
+- [Why GoldRateSLWidgetApp?](#-why-goldrateslwidgetapp)
+- [Built With](#-built-with)
+- [Getting Started](#-getting-started)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Testing](#-testing)
 
-Using swift_package_manager:
+---
 
-❯ swift build
-Usage
+## 🚀 Getting Started
 
-Run the project with:
+Follow the steps below to get started with **GoldRateSLWidgetApp**.
 
-Using swift_package_manager:
+### ✅ Prerequisites
 
-swift run
-Testing
+You’ll need the following tools installed:
 
-Goldrateslwidgetapp uses the {test_framework} test framework. Run the test suite with:
+- **Swift** (latest stable version)
+- **Swift Package Manager (SPM)**
 
-Using swift_package_manager:
+---
 
-swift test
-⬆ Return
+## ⚙️ Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/navindu2004/GoldRateSLWidgetApp
